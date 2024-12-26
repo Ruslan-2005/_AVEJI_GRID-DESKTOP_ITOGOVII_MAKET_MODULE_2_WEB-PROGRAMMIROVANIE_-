@@ -1,0 +1,28 @@
+.grid-desktop,
+.grid-desktop * {
+  box-sizing: border-box;
+}
+.grid-desktop {
+  background: var(--light-theme-primary-background, #f8fafb);
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  height: 872px;
+  position: relative;
+  overflow: hidden;
+}
+._1-web {
+  color: var(--black-100, #101828);
+  text-align: left;
+  font-family: var(--h1-web-font-family, "Roboto-Medium", sans-serif);
+  font-size: var(--h1-web-font-size, 50px);
+  line-height: var(--h1-web-line-height, 60px);
+  font-weight: var(--h1-web-font-weight, 500);
+  position: absolute;
+  right: 80.34%;
+  left: 3.64%;
+  width: 16.02%;
+  bottom: 90.25%;
+  top: 2.87%;
+  height: 6.88%;
+}
